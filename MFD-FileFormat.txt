@@ -1,0 +1,15 @@
+uint32 {4}   - Number Of Files
+// for each file
+
+uint32 {4}   - File ID?
+uint32 {4}   - File Offset
+uint32 {4}   - File Length
+// for each file
+
+byte {X}     - File Data
+byte {X}     - null Padding to a multiple of 4? bytes
+
+----------------------------
+
+Taken from Xentax Wiki
+http://wiki.xentax.com/index.php/GRAF:187_Ride_Or_Die_MFD
